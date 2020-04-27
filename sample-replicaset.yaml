@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  creationTimestamp: null
+  name:
+  namespace: default
+  labels:
+  
+spec:
+  replicas: 
+  selector:
+    matchLabels:
+
+  template:
+    metadata:
+      name:
+      labels:
+
+    spec:
+      containers:
+      - image:
+        name:
+        imagePullPolicy: Always
+        ports:
+        - containerPort:
+          protocol: TCP
+        resources: {}
+      restartPolicy: Always
+      dnsPolicy: ClusterFirst
+
+status: {}
