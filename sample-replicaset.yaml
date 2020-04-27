@@ -28,4 +28,3 @@ spec:
       restartPolicy: Always
       dnsPolicy: ClusterFirst
 
-status: {}
