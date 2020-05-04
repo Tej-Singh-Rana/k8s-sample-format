@@ -1,0 +1,18 @@
+kind: DaemonSet
+apiVersion: apps/v1
+metadata:
+	name: 
+
+spec:
+  selector:
+    matchLabels:
+                        # Pod label name here to match
+  template:
+      metadata:
+         name:
+         labels:
+                        # Pod label name
+      spec:
+         containers:
+         - image:                # Pod details
+           name:
