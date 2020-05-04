@@ -11,3 +11,4 @@ spec:
     requests.memory:  #5Gi, 500Mi
     limits.cpu:   # "10" max limit for this namespace 
     limits.memory:  #10Gi
+    
